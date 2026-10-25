@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Coverage](https://img.shields.io/badge/coverage-89.5%25-brightgreen)](target/site/jacoco/index.html)
 
+<div align="center">
+  <img src="assets/demo.gif" alt="Payment Processing Engine CLI Execution Demo" width="900px" style="border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.3);" />
+</div>
+
 A production-grade, modular, in-memory payment processing engine written in Java demonstrating clean Low-Level Design (LLD), SOLID principles, gang-of-four design patterns, and thread-safe distributed systems concepts (idempotency, exponential backoff, state machines, and partial refunds).
 
 ---
