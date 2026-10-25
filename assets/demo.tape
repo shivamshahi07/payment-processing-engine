@@ -3,20 +3,22 @@ Output "/Users/shivam/Developer/payment-processing-engine/assets/demo.gif"
 Set FontSize 13
 Set FontFamily "JetBrains Mono"
 Set Width 1100
-Set Height 640
+Set Height 660
 Set Padding 20
 Set Theme "Catppuccin Mocha"
 Set WindowBar Colorful
 Set LetterSpacing 0
 
-Type "cd /Users/shivam/Developer/payment-processing-engine && clear"
+Hide
+Type "cd ~/Developer && clear"
 Enter
-Sleep 500ms
+Sleep 400ms
+Show
 
-Type "mvn test -q"
+Type "cd payment-processing-engine"
 Enter
-Sleep 3s
+Sleep 600ms
 
 Type "java -cp target/classes com.shivamshahi.payments.Main"
 Enter
-Sleep 5s
+Sleep 6s
